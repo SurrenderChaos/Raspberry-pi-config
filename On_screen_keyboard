@@ -1,0 +1,3 @@
+teclado en la pantalla
+
+sudo apt-get install matchbox-keyboard
