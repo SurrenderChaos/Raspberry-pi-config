@@ -1,0 +1,12 @@
+scan_ssid=1 
+
+/etc/wpa_supplicant/wpa_supplicant.conf
+
+network={
+ssid="nombre_de_la_red"
+scan_ssid=1
+psk="password"
+key_mgmt=WPA-PSK
+pairwise=CCMP
+auth_alg=OPEN
+}
